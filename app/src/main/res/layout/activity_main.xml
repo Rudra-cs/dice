@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#BBBCE1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Roll the Dice"
+        android:textColor="#400D49"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_6"/>
+
+   <Button
+       android:id="@+id/btn_roll"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:text="Roll"
+       android:layout_gravity="center"
+       android:layout_margin="8dp"
+       android:textSize="20sp"
+       android:background="@android:color/holo_orange_dark"/>
+
+
+</LinearLayout>
